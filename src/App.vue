@@ -12,18 +12,12 @@ const { error } = storeToRefs(store);
 
 <template>
   <header>
-    
-    <div class="wrapper">
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
+      <h1 class="text-3xl font-bold underline">
+        <RouterLink to="/">
+            BanKan 
+        </RouterLink>
+      </h1>
   </header>
 
   <RouterView />
 </template>
-
-<style scoped>
-
-</style>
